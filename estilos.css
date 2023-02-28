@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(178, 187, 170);;
+    margin: 0;
+    padding: 30;
+}
+
+.izquierda{
+    background-color: rgb(178, 187, 170);
+    height: 110vh;
+    width: 30%;
+}
+
+.derecha{
+    background-color:rgb(178, 187, 170);;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 110vh;
+}
+
+#pantalla-dividida{
+    display: flex;
+}
+
+h1{
+    text-align: center;
+}
+
+/*.linea-espaciadora{
+    border-left: 5px solid rgb(0, 0, 0);
+    height: 735px;
+    position: absolute;
+    left: 25%;
+    margin-left: 3px;
+    top:10.6%;
+}*/
+
+.imagen{
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.imagen-argentina{
+    display: flex;
+    width: 200px;
+    height: 70px;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    background-color: coral;
+    height: 70px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.ir-arriba{
+    display:inline-block;
+    padding: 20px;
+    background:#024959;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.btn-scrolltop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background:red;
+    color:#fff;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+/*.btn-scrolltop-on{
+    transform: translateY(0px);
+}*/
+.boton-ocultar{
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    background:rgb(0, 0, 0);
+    color:#fff;
+    
+    border: 1px solid white;
+    cursor: pointer;
+}
